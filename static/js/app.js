@@ -24,7 +24,6 @@ function buildCharts(sample) {
   
     // @TODO: Use `d3.json` to fetch the sample data for the plots
     d3.json(`/samples/${sample}`).then(function(response) {
-      console.log(response);
       var data = response;
     
       // @TODO: Build a Bubble Chart using the sample data
