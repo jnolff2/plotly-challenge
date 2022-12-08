@@ -1,5 +1,5 @@
 antiorm==1.2.1
-certifi==2019.6.16
+certifi==2022.12.7
 Click==7.0
 db==0.1.1
 Flask==1.1.1
